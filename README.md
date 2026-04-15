@@ -1,14 +1,10 @@
-
-
-```
-secure-app-good/
+secure-app/
 ├── app/
 │   └── main.py
-├── tests/
-│   └── test_main.py
-├── Dockerfile
 ├── requirements.txt
+├── Dockerfile
+├── .semgrep.yml
+├── README.md
 └── .github/
     └── workflows/
         └── devsecops-pipeline.yml
-```
