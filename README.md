@@ -1,19 +1,24 @@
 ## Repository Structure
 
 ```
-secure-app-good/
+secure-app-good-Alondres/
+├── .github/
+│   └── workflows/
+│      └── devsecops-pipeline.yml
 ├── app/
+│   ├── __init__.py
 │   └── main.py
-├── requirements.txt
+├── tests/
+│   ├── __init__.py
+│   └── main.py
+├── .semgrep.ymlrequirements.txt
 ├── Dockerfile
-├── .semgrep.yml
 ├── README.md
-└── .github/
-    └── workflows/
-        └── devsecops-pipeline.yml
+└── requirements.txt
+
 ```
 
-# secure-app-good
+# secure-app-good-Alondres
 
 A small but realistic DevSecOps demonstration application built with Flask, secured and validated through a multi-stage GitHub Actions CI pipeline.
 
