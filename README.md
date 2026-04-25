@@ -1,7 +1,7 @@
 ## Repository Structure
 
 ```
-secure-app-good-Alondres/
+secure-app-good/
 ├── .github/
 │   └── workflows/
 │      └── devsecops-pipeline.yml
